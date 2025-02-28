@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#lagartos-container, #new-generation, #new-generation-cross-over, #new-generation-mutacao, #new-generation-genetico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lagarto {
+    width: 160px;
+    height: 160px;
+    margin: 5px;
+    background-image: url('lagarto.png'); 
+    background-size: contain;
+}
+.roleta-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
